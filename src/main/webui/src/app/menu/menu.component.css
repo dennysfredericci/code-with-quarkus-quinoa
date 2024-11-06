@@ -1,0 +1,12 @@
+.menu-item {
+  border-bottom-width: 1px;
+  @apply border-b-gray-600;
+}
+
+.menu-item-active {
+  @apply border-l-4 border-l-amber-600 bg-gray-600;
+}
+
+.menu-item:hover {
+  @apply bg-gray-600;
+}
