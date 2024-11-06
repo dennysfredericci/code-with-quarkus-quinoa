@@ -1,6 +1,8 @@
-# code-with-quarkus
+# Code With Quarkus and Angular
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+This project uses Quarkus in the backend and Angular in the frontend.
+
+The Angular is already configured with Tailwindcss and DaisyUI.
 
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
 
