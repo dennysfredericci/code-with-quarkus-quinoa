@@ -4,6 +4,8 @@ import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
+import java.util.Map;
+
 @Path("/version")
 public class VersionController {
     private final String version;
@@ -12,8 +14,8 @@ public class VersionController {
     }
     
     @GET
-    public String getVersion() {
-        return this.version;
+    public Map<String, String> getVersion() {
+        return Map.of("version", this.version);
     }
     
 }
